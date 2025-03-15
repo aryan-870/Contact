@@ -1,0 +1,93 @@
+body{
+background-color: rgb(175, 208, 197);
+font-size: 12px;
+}
+#shape{
+width: 260px;
+   margin: 100px 10px 10px 500px;
+   border: 2px solid gainsboro;
+   border-radius: 6px;
+   background-color: white;
+   display: block;
+padding-left: 10px;
+   padding-right: 100px;
+}
+
+#all{
+    display: flex;
+}
+.main-wra{
+    border-radius: 4px
+    display: block;
+    margin-right: 4px;
+}
+#name{
+    display: block;
+    margin-left: 2px;
+}
+.clean{
+    border: 1px solid;
+    border-radius: 4px;
+}
+.main-wrap{
+    display: flex;
+}
+label{
+    display: block;
+    margin-top: 10px;
+}
+#wrap{
+   border: 1px solid;
+   border-radius: 3px; 
+   margin-right: 4px;
+   padding-left: 5px;
+   padding-right: 60px;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+}
+#wrap1{
+   border: 1px solid;
+   border-radius: 3px; 
+   margin-left: 4px;
+   margin-right: 20px;
+   padding-left: 5px;
+   padding-right: 50px;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+}
+#box{
+    display: flex;
+ 
+}
+
+  
+#wrap:hover{
+    border: 1px solid rgb(34, 175, 34);
+    border-radius: 4px;
+    cursor: pointer;
+}
+#wrap1:hover{
+    border: 1px solid rgb(34, 175, 34);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input:hover, select:hover{
+    border: 1px solid rgb(34, 175, 34);
+    border-radius: 4px;
+    cursor: pointer;
+}
+   
+button{ 
+    background-color: rgb(0, 22, 0);
+    border: 1px solid black;
+    border-radius: 4px;
+    color: aliceblue;
+    margin-bottom: 0;
+    width: 345px;
+}
+button:hover{
+    border: 1px solid rgb(34, 175, 34);
+    border-radius: 4px;
+    cursor: pointer;
+}
