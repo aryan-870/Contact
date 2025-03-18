@@ -1,93 +1,80 @@
 body{
-background-color: rgb(175, 208, 197);
-font-size: 12px;
-}
-#shape{
-width: 260px;
-   margin: 100px 10px 10px 500px;
-   border: 2px solid gainsboro;
-   border-radius: 6px;
-   background-color: white;
-   display: block;
-padding-left: 10px;
-   padding-right: 100px;
-}
+font-size: 10px;
+background-color: rgb(188, 238, 222);
 
-#all{
-    display: flex;
 }
-.main-wra{
-    border-radius: 4px
-    display: block;
-    margin-right: 4px;
+.container{
+   
+   border-radius: 8px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 50px;
+   margin-top: 50px;
+   width: 40%;
+   padding: 10px;
+   padding-bottom: 10px;
+   background-color: white;
 }
-#name{
-    display: block;
-    margin-left: 2px;
+.name{
+ display: flex;
+    gap: 143px;
+    
 }
-.clean{
-    border: 1px solid;
-    border-radius: 4px;
+.space{
+   display: flex;
+   gap: 5px;
+   margin-bottom: 20px;
+}
+input{
+    
 }
 .main-wrap{
-    display: flex;
-}
-label{
-    display: block;
-    margin-top: 10px;
-}
-#wrap{
-   border: 1px solid;
-   border-radius: 3px; 
-   margin-right: 4px;
-   padding-left: 5px;
-   padding-right: 60px;
-   padding-bottom: 5px;
-   margin-bottom: 10px;
-}
-#wrap1{
-   border: 1px solid;
-   border-radius: 3px; 
-   margin-left: 4px;
-   margin-right: 20px;
-   padding-left: 5px;
-   padding-right: 50px;
-   padding-bottom: 5px;
-   margin-bottom: 10px;
-}
-#box{
-    display: flex;
+display: flex;
+justify-content: space-evenly;
  
+    
+}
+.from{
+   margin-bottom: 5px;
 }
 
-  
-#wrap:hover{
-    border: 1px solid rgb(34, 175, 34);
-    border-radius: 4px;
-    cursor: pointer;
-}
-#wrap1:hover{
-    border: 1px solid rgb(34, 175, 34);
-    border-radius: 4px;
-    cursor: pointer;
+#wrap{
+   display: flex;
+   border: 1px solid #222222;
+   border-radius: 4px;
+   width: 50%;
+   margin-right: 4px;
 }
 
-input:hover, select:hover{
-    border: 1px solid rgb(34, 175, 34);
-    border-radius: 4px;
-    cursor: pointer;
+ #wrap1{
+   display: flex;
+   border: 1px solid;
+   border-radius: 4px;
+   width: 50%;
+   margin-left: 4px
 }
-   
-button{ 
-    background-color: rgb(0, 22, 0);
-    border: 1px solid black;
-    border-radius: 4px;
-    color: aliceblue;
-    margin-bottom: 0;
-    width: 345px;
+ 
+ #message-box{
+   margin-top: 10px;
+ }
+#checkbox{
+   width:auto
 }
-button:hover{
-    border: 1px solid rgb(34, 175, 34);
-    border-radius: 4px;
-    cursor: pointer;
+ #box{
+   display: flex;
+ }
+.btn{
+  color: white;
+   background-color: rgb(4, 32, 4);
+   display: block;
+  width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 4px;
+   border: none;
+   padding-top: 3px;
+   padding-bottom: 3px;
 }
+
+
